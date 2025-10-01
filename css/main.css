@@ -239,7 +239,7 @@ textarea.input1 + .shadow-input1 {
 
 #change_links {
     display: inline-block;
-    padding: 12px 120px;
+    padding: 12px 30px;
     align-items: center;
     background-color: #4CAF50; /* Green background */
     color: white;
@@ -491,4 +491,5 @@ textarea.input1 + .shadow-input1 {
     visibility: visible;
     opacity: 1;
   }
+
 }
