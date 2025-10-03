@@ -55,8 +55,8 @@ console.log("showValidate() was called");
 //Find element by linktext
 //Find element by partialLinkText
     var linksField = document.getElementById("change_links");
-        linksField.href = "https://github.com/healenium";
-        linksField.innerText = "Healenium GitHub";
+        linksField.href = "https://ec.europa.eu/eurostat/web/main/news";
+        linksField.innerText = "Eurostat News";
  }
 
  //<!--===============================================================================================-->
@@ -90,4 +90,5 @@ function hlmWait(){
          submit.parentNode.appendChild(newElement);
          initialised = true;
      }, 8000); // 8 seconds
+
  }
