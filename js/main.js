@@ -34,6 +34,9 @@ console.log("showValidate() was called");
 var bodyClassName=document.getElementsByClassName("healenium")[0];
     bodyClassName.className="healenium1";
 
+var changeLocators=document.getElementsByClassName("healenium-form-btn")[0];
+    changeLocators.className="healenium-form-btn-new";
+
 //CSS Id - change_id -> newValue
 //Find element by Id
     var idField=document.getElementById("change_id");
@@ -95,5 +98,6 @@ function hlmWait(){
      }, 8000); // 8 seconds
 
  }
+
 
 
