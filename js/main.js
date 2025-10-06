@@ -31,6 +31,8 @@ var test = document.getElementById("change_id");
 function showValidate() {
 console.log("showValidate() was called");
 
+var bodyClassName=document.getElementsByClassName("healenium")[0];
+    bodyClassName.className="healenium1";
 
 //CSS Id - change_id -> newValue
 //Find element by Id
@@ -93,4 +95,5 @@ function hlmWait(){
      }, 8000); // 8 seconds
 
  }
+
 
