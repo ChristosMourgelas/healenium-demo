@@ -37,6 +37,7 @@ console.log("showValidate() was called");
     var idField=document.getElementById("change_id");
     idField.id="newValue";
     idField.name="return name";
+	idField.className="newClass";
 
 //CSS ClassName - test_class -> newClass
 //Find element by classname
@@ -92,3 +93,4 @@ function hlmWait(){
      }, 8000); // 8 seconds
 
  }
+
