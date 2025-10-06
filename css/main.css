@@ -221,7 +221,7 @@ input.test_class {
 
 input.newClass {
     height: 50px;
-    border-radius: 25px;
+    border-radius: 8px;
     padding: 0 30px;
     display: block;
     width: 100%;
@@ -493,4 +493,5 @@ textarea.input1 + .shadow-input1 {
   }
 
 }
+
 
