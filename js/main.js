@@ -60,9 +60,9 @@ var changeLocators=document.getElementsByClassName("healenium-form-btn")[0];
 
 //Find element by linktext
 //Find element by partialLinkText
-    var linksField = document.getElementById("change_links");
-        linksField.href = "https://ec.europa.eu/eurostat/web/main/news";
-        linksField.innerText = "Eurostat News";
+    // var linksField = document.getElementById("change_links");
+    //     linksField.href = "https://ec.europa.eu/eurostat/web/main/news";
+    //     linksField.innerText = "Eurostat News";
  }
 
  //<!--===============================================================================================-->
@@ -98,6 +98,7 @@ function hlmWait(){
      }, 8000); // 8 seconds
 
  }
+
 
 
 
